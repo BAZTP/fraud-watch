@@ -1,0 +1,7 @@
+{
+  "amount_high": { "threshold_usd": 1000, "score": 70, "severity": "high" },
+  "amount_medium": { "threshold_usd": 500, "score": 45, "severity": "medium" },
+  "rapid_fire": { "count": 3, "minutes": 10, "score": 60, "severity": "high" },
+  "country_change_24h": { "score": 55, "severity": "high" },
+  "night_hours": { "from": 0, "to": 5, "score": 25, "severity": "low" }
+}
